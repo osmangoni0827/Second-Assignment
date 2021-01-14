@@ -1,0 +1,176 @@
+body{
+    font-family: 'Merriweather', serif;
+    color: #FFFFFF;
+}
+
+
+header{
+    background-color: #FFFBF0;
+}
+
+
+.new-button{
+    width: 140px;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    background-color: #92AC2B;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* Top-section1 navbar*/
+.navbarlogo img{
+    
+    width: 50px;
+    height: 50px;
+    
+}
+.navbar-item ul li{
+    margin-right: 5px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.navbar{
+    background:none;
+    
+}
+
+/* Top-Section2 */
+
+.top-section2{
+    padding: 15px;
+}
+.top-section2 h1{
+    font-family: 'Bebas Neue', cursive;
+    height: 150px;
+    font-size: 70px;
+    color: #363958;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 15px;
+    padding-left:0px;
+    text-transform: uppercase;
+    
+}
+.top-section2 p{
+    margin-top: 50px;
+}
+.top-section2 img{
+    padding: 0px 0px 30px 30px;
+}
+.top-section2 i{
+
+}
+
+
+/* women part */
+.cards{
+    width: 350px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.women-section .cards,  .man-section .cards{
+    border: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #F8F8F8;
+}
+.cards h3{
+
+    font-size: 25px;
+    color: #363958;
+}
+.product{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90%;
+    height: 310px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    text-align: center;
+}
+.product img{
+    padding: 15px;
+    width:260px;
+    height: 280px;
+    margin: 10px 0px;
+}
+.women-section h1,.man-section h1{
+
+    margin-top: 5%;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #363958;
+}
+
+
+.cards .fotter-card{
+    background-color: white;
+    border: none;
+}
+.cards .fotter-card h2{
+    color: #F9BB41;
+}
+
+
+.mainsaction3{
+    margin-top: 8%;
+}
+
+.mainsaction3 img{
+    margin-left: 25px;
+}
+.mainsaction3 .card{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #F8F8F8;
+}
+
+.mainsaction3 .Second-Colum img{
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #fffdfa;
+}
+.footersection1 .card{
+    margin-top: 20px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+}
+.footersection1 .card h5{
+    margin-top: 1%;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    color: #363958;
+}
+.footersection1 .card button
+{
+    margin-top: 10px;
+}
+.fotersection2-1 .communiLogo img{
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.communiLogo{
+    position: relative;
+    left: 80px;
+    
+}
+
+.resurbedpart{
+    position: relative;
+    left: 60px;
+}
