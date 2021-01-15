@@ -48,6 +48,7 @@ header{
 }
 
 .navbar{
+    position: fixed;
     background:none;
     margin-bottom: 2%;  
 }
@@ -149,7 +150,8 @@ header{
 
 .mainsaction3 .Second-Colum img{
     width: 90%;
-    height: 90%;
+    height: 80%;
+    margin-top: 50px;
 }
 
 
