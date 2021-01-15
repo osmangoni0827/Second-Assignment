@@ -1,75 +1,85 @@
 body{
-    font-family: 'Merriweather', serif;
+    font-family: 'Imbue', serif;
     color: #FFFFFF;
 }
 
-
+p{
+    font-size: 22px;
+}
 header{
+
     background-color: #FFFBF0;
 }
 
-
+                /* All Button */
 .new-button{
-    width: 140px;
+    width: 200px;
+    height: 50px;
     padding: 8px;
     color: white;
-    text-align: center;
     background-color: #92AC2B;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
-/* Top-section1 navbar*/
+                /* Top-section1 navbar*/
 .navbarlogo img{
     
     width: 50px;
     height: 50px;
     
 }
-.navbar-item ul li{
-    margin-right: 5px;
-    padding: 10px;
-    font-size: 13px;
-    font-weight: 500;
+.navbarlogo h4{
+    width: 100%;
 }
-.navbar{
-    background:none;
+.navbar-item{
+
+    float: right;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.navbar-item a{
+    margin-right: 10px;
     
 }
 
-/* Top-Section2 */
+.navbar{
+    background:none;
+    margin-bottom: 2%;  
+}
+
+/* /       Top-Section2  */
 
 .top-section2{
     padding: 15px;
 }
 .top-section2 h1{
     font-family: 'Bebas Neue', cursive;
-    height: 150px;
     font-size: 70px;
     color: #363958;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     padding: 15px;
     padding-left:0px;
     text-transform: uppercase;
     
 }
-.top-section2 p{
-    margin-top: 50px;
-}
 .top-section2 img{
     padding: 0px 0px 30px 30px;
 }
-.top-section2 i{
+.top-section2 button i{
 
 }
 
 
-/* women part */
+                    /* Products Part , Women and Man */
 .cards{
-    width: 350px;
     padding: 5px;
-    margin-bottom: 20px;
+    margin:10px;
 }
 .women-section .cards,  .man-section .cards{
     border: none;
@@ -96,16 +106,21 @@ header{
     height: 280px;
     margin: 10px 0px;
 }
+
+                    /* Card h1 */
+
+
 .women-section h1,.man-section h1{
 
-    margin-top: 5%;
-    margin-bottom: 5px;
+    margin-top: 10%;
+    margin-bottom: 6px;
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     color: #363958;
+    text-align: center;
 }
 
-
+    /* Card Fotter */
 .cards .fotter-card{
     background-color: white;
     border: none;
@@ -113,6 +128,8 @@ header{
 .cards .fotter-card h2{
     color: #F9BB41;
 }
+
+                    /* MainSection-3 */
 
 
 .mainsaction3{
@@ -135,6 +152,9 @@ header{
     height: 90%;
 }
 
+
+
+                    /* Fotter Section Css */
 footer{
     margin-top: 20px;
     background-color: #fffdfa;
@@ -151,12 +171,21 @@ footer{
     margin-top: 1%;
     margin-bottom: 5px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 22px;
-    color: #363958;
+    font-size: 30px;
+    color: #F9BB41;
+}
+.footersection1 .card ul li{
+    font-size: 20px;
+    font-weight: 500;
 }
 .footersection1 .card button
 {
     margin-top: 10px;
+}
+
+.fotersection2-1
+{
+    text-align: center;
 }
 .fotersection2-1 .communiLogo img{
     width: 30px;
@@ -165,12 +194,9 @@ footer{
     margin-right: 5px;
 }
 .communiLogo{
-    position: relative;
-    left: 80px;
-    
+  
+display: flex;
+justify-content: center;   
 }
 
-.resurbedpart{
-    position: relative;
-    left: 60px;
-}
+
